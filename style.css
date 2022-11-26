@@ -343,7 +343,7 @@ a {
   .nav-list {
     flex-direction: column;
     display: block;
-    padding: 0 50%;
+    
     position: absolute;
     border-radius: 5px;
     justify-content: space-between;
