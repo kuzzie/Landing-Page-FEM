@@ -20,6 +20,10 @@
     <div class="container">
       <div class="even-columns header">
         <a href="#"><img src="images/logo.svg" alt="Manage logo" class="logo"></a>
+        <button class="mobile-nav-toggle">
+          <img class="icon-hamburger" src="images/icon-hamburger.svg" alt="menu toggle">
+          <img class="icon-close" src="images/icon-close.svg" alt="">
+        </button>
         <nav class="primary-nav">
           <ul role="list" class="nav-list">
             <li><a href="#">Pricing</a></li>
@@ -120,7 +124,7 @@
   </main>
   <footer class="footer">
     <div class="container">
-      <div class="even-columns">
+      <div class="even-columns footer-flex">
         <div>
           <a href="#"><img src="images/logo.svg" alt="Manage logo" class="logo"></a>
           <ul role="list" class="social-links">
@@ -132,11 +136,13 @@
           </ul>
         </div>
         <div class="footer-nav">
-          <ul role="list" class="footer-nav-links">
+          <ul role="list" class="footer-nav-links first-col">
             <li><a href="#">Home</a></li>
             <li><a href="#">Pricing</a></li>
             <li><a href="#">Products</a></li>
             <li><a href="#">About Us</a></li>
+          </ul>
+          <ul role="list" class="footer-nav-links second-col">
             <li><a href="#">Careers</a></li>
             <li><a href="#">Community</a></li>
             <li><a href="#">Privacy Policy</a></li>
@@ -152,6 +158,7 @@
       </div>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 
 </html>
