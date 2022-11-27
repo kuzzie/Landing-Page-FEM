@@ -1,5 +1,5 @@
 # Landing-Page-FEM
-Landing Page from frontendmentor.io
+Landing Page from http://frontendmentor.io
 
 ## Todo
 - Clean up CSS
